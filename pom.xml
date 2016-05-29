@@ -113,8 +113,8 @@
     </pluginRepositories>
 
     <modules>
-        <module>components/org.wso2.carbon.identity.account.lock</module>
-        <module>features/org.wso2.carbon.identity.account.lock.feature</module>
+        <module>components/org.wso2.carbon.identity.event.handler.account.lock</module>
+        <module>features/org.wso2.carbon.identity.event.handler.account.lock.feature</module>
     </modules>
 
     <dependencyManagement>
@@ -133,11 +133,6 @@
                 <version>${identity.governance.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>org.wso2.carbon.identity</groupId>
-                <artifactId>org.wso2.carbon.identity.account.lock</artifactId>
-                <version>${project.version}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 

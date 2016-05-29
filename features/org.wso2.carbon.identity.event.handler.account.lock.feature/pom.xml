@@ -26,7 +26,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>org.wso2.carbon.identity.account.lock.feature</artifactId>
+    <artifactId>org.wso2.carbon.identity.event.handler.account.lock.feature</artifactId>
     <packaging>pom</packaging>
     <name>User account lock feature</name>
     <url>http://wso2.org</url>
@@ -43,7 +43,7 @@
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon.identity</groupId>
-            <artifactId>org.wso2.carbon.identity.account.lock</artifactId>
+            <artifactId>org.wso2.carbon.identity.event.handler.account.lock</artifactId>
         </dependency>
     </dependencies>
 
